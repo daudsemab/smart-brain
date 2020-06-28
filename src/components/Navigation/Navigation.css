@@ -1,0 +1,38 @@
+.navigation-bar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background: rgb(170, 62, 242);
+  background: linear-gradient(
+    287deg,
+    rgba(170, 62, 242, 1) 52%,
+    transparent 80%
+  );
+}
+
+.nav-items {
+  color: black;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  margin: 0;
+  padding: 2px 1.1em 2px 0;
+}
+
+.nav-items:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-items:active {
+  color: white;
+}
+
+/* @media only screen and (max-width: 440px) {
+
+
+} */

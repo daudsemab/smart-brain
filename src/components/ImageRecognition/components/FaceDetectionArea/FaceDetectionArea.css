@@ -1,0 +1,35 @@
+.image-container {
+    max-width: 400px;
+    min-width: 300px;
+    height: auto;
+    padding: 1.2em;
+    margin: 1.2em auto 1.2em auto;
+    background-color: transparent;
+    position: relative;
+}
+
+.face-id {
+    height: 20px;
+    width: 20px;
+    margin: auto 0 0 auto;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    background-color: #149df2;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bounding-box:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+}

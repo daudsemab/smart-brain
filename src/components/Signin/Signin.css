@@ -1,0 +1,39 @@
+/* .form-card{
+    background-color: #111;
+    color: darkgrey;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 1em;
+    margin: 2em auto 2em auto;
+    border: 1px darkgrey solid;
+    border-radius: 2em;
+    box-shadow: 1px 1px 15px darkgrey;
+}
+
+.input-field {
+    color: darkgrey;
+    width: 70%;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 1.3rem;
+    background: transparent;
+    outline-style: none;
+    border: 1px darkgrey solid;
+}
+
+.input-field:active {
+    border: 1px #fefefe solid;
+}
+
+.medium-heading {
+    margin: 0 auto auto 0;
+    font-family: "Pacifico", cursive;
+    font-size: 1.7rem;
+    color: darkgrey;
+}
+
+.register-line:hover {
+    color: #fefefe;
+    text-decoration: underline;
+    cursor: pointer;
+} */

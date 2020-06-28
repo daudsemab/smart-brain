@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.img-lazy-loading {
+  animation: sharp 3.5s;
+}
+
+@keyframes sharp {
+  from {
+    filter: blur(20px);
+  }
+  to {
+    filter: none;
+  }
+}

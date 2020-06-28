@@ -1,0 +1,46 @@
+.logo-portion {
+  width: 100%;
+  display: flex;
+}
+
+.Tilt {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 1.15rem;
+  background-color: #aa3ef2;
+  background: radial-gradient(
+    circle,
+    rgba(170, 62, 242, 1) 38%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin-top: 1.2em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
+}
+
+.logo-heading {
+  max-width: 70%;
+  margin: 1.1em auto auto 0;
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: #fefefe;
+  text-shadow: 4px 2px 25px rgba(170, 62, 242, 1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 470px) {
+  .Tilt {
+    height: 70px;
+    width: 70px;
+  }
+
+  .logo-pic {
+    width: 100%;
+  }
+
+  .logo-heading {
+    font-size: 1.8rem;
+  }
+}

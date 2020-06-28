@@ -1,0 +1,19 @@
+.status {
+    color: darkgrey;
+    font-size: 1.12em;
+    margin-bottom: 2em;
+}
+
+.status-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.rank {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    color: #fefefe;
+    text-shadow: 4px 2px 25px rgba(170,62,242,1);
+  }

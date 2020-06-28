@@ -1,0 +1,54 @@
+#about-container {
+  width: 90%;
+  height: auto;
+  margin: 2em auto 4em auto;
+  background-color: rgba(0, 0, 0, 0.55);
+  background-repeat: space;
+  align-items: center;
+  padding: 1em 0 1em 0;
+  box-shadow: 0px 0px 7px 3px rgba(208, 39, 250, 0.514);
+}
+
+.about-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2em auto 2em auto;
+}
+
+.about-para {
+  max-width: 300px;
+  text-align: left;
+  margin-bottom: 2em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.about-name {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  background: rgb(170, 62, 242);
+  background: linear-gradient(68deg, rgb(170, 62, 242) 59%, rgba(255,255,255,1) 59%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-name:hover {
+  background: rgb(255,255,255);
+  background: linear-gradient(68deg, rgba(255,255,255,1) 59%, rgb(170, 62, 242) 59%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.about-pic {
+  margin-top: 0.5em;
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10em;
+}
+
+.about-pic:hover {
+  cursor: pointer;
+  border: 2px solid rgb(170, 62, 242);
+}
