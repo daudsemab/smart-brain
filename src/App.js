@@ -79,13 +79,13 @@ class App extends Component {
 
   componentDidMount() {
     alert(`
-    Welcome to 🧠 Smart Brain Web App!
-    Use our DEMO account:
-    Email: demo@gmail.com
-    Password: demo
-    Or create your own one.
-    For more details click on Guide menu below.
-    Thank You!
+Welcome to Smart Brain Web App!
+Use our DEMO account:
+Email: demo@gmail.com
+Password: demo
+Or create your own one.
+For more details click on Guide menu below.
+Thank You!
     `)
   }
 
